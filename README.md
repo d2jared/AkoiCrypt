@@ -17,7 +17,7 @@ AkoiCrypt vous permet de communiquer directement avec d'autres utilisateurs tout
 **Clonage du Référentiel**: Clonez ce répertoire sur votre machine locale en utilisant la commande `git clone`.
 `git clone https://github.com/d2jared/AkoiCrypt.git`
 
-**Lancement du Service**: Exécutez le service en utilisant la commande : `python Main.py`
+**Lancement du Service**: Exécutez le fichier `serveur.py` (le changement de port peut se faire au sein de ce fichier) et le service principale en utilisant la commande : `python Main.py`
 
 **Commencez à Communiquer**: Utilisez les adresses IP pour ajouter des pairs, échanger des clés et commencer à envoyer des messages de manière sécurisée.
 > Dans un prochain Update, l'adresses IP seront remplacées par un nom crée par l'utilisateur pour plus de sécurité.
