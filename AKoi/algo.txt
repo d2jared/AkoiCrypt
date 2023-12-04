@@ -1,0 +1,14 @@
+client 1 
+    -> génère une clé toute les 30s
+    -> l'envoie a client 2
+
+client 2
+    -> récupère la clé
+    -> chiffre le message gràce a la clé
+    -> envoie le message chiffrer a client 1
+
+client 1
+    -> récupère le message
+    -> déchiffre le message grâce a la clé
+
+
